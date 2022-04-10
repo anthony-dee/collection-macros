@@ -1,0 +1,51 @@
+{
+    "name": "anthony-dee/collection-macros",
+    "description": "Set of useful extension macros to the laravel Collection class",
+    "keywords": [
+        "anthony-dee",
+        "collection-macros"
+    ],
+    "homepage": "https://github.com/anthony-dee/collection-macros",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Anthony Douglas",
+            "email": "anthonydouglas525@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AnthonyDee\\CollectionMacros\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AnthonyDee\\CollectionMacros\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AnthonyDee\\CollectionMacros\\CollectionMacrosServiceProvider"
+            ]
+        }
+    }
+}
