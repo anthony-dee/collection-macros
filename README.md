@@ -1,7 +1,5 @@
 # Very short description of the package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/     anthony-dee/collection-macros.svg?style=flat-square)](https://packagist.org/packages/     anthony-dee/collection-macros)
-
 This package houses some macros that extend the Laravel `Collection`. It currently only contains one, `pluckThenGroupBy` 
 
 ## Installation
